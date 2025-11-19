@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="Controller.Controller">
+
+    <center>
+        <TableView fx:id="table">
+            <columns>
+                <TableColumn fx:id="colNim" text="NIM" />
+                <TableColumn fx:id="colNama" text="Nama" />
+            </columns>
+        </TableView>
+    </center>
+
+</BorderPane>
